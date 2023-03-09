@@ -1,2 +1,2 @@
 # RDST
-A residual dense swin transformer for medical image super-resolution
+A residual dense vision transformer for medical image super-resolution.
