@@ -1,6 +1,6 @@
 # RDST
 A residual dense vision transformer for medical image super-resolution with novel general-purpose perceptual loss.
-## Intro
+## Introduction
 This paper proposes an efficient vision transformer with residual dense connections and local feature fusion to achieve efficient single-image super-resolution (SISR) of medical modalities. Moreover, we implement a general-purpose perceptual loss with manual control for image quality improvements of desired aspects by incorporating prior knowledge of medical image segmentation. Compared with state-of-the-art methods on four public medical image datasets, the proposed method achieves the best PSNR scores of 6 modalities among seven modalities. It leads to an average improvement of +0.09 dB PSNR with only 38\% parameters of SwinIR. On the other hand, the segmentation-based perceptual loss increases +0.14 dB PSNR on average for SOTA methods, including CNNs and vision transformers. Additionally, we conduct comprehensive ablation studies to discuss potential factors for the superior performance of vision transformers over CNNs and the impacts of network and loss function components.
 
 ![](./figures/RDST-MIA-RDST.png)
@@ -22,7 +22,7 @@ This paper proposes an efficient vision transformer with residual dense connecti
 ![](./figures/SOTA_SEG.png)
 
 
-# Train & Test
+## Train & Test
 To setup:
 ```bash
 git clone https://github.com/GinZhu/RDST.git
@@ -38,7 +38,7 @@ To test:
 python -W ignore test.py --config-file config_files/RDST_E1_OASIS_example_SRx4_testing.ini
 ```
 
-# Publications & citations
+## Publications & citations
 This work is available at [arXiv](https://arxiv.org/abs/2302.11184), please cite as:
 ```
 @article{zhu2023rdst,
