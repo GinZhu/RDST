@@ -24,6 +24,9 @@ This paper proposes an efficient vision transformer with residual dense connecti
 
 # Train & Test
 To setup:
+'''
+git clone
+'''
 To train:
 To test:
 
