@@ -15,6 +15,10 @@ This paper proposes an efficient vision transformer with residual dense connecti
 ![](./figures/RDST-ACDC-SOTA.png)
 [COVID-CT](https://zenodo.org/record/3757476)
 ![](./figures/RDST-COVID-SOTA.png)
+### Comparing with SOTA methods (PSNR + Segmentation)
+![On OASIS](./figures/RDST_SOTA.png)
+### Comparing with SwinIR
+
 
 # Train & Test
 To setup:
