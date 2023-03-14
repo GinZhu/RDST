@@ -38,6 +38,13 @@ To test:
 python -W ignore test.py --config-file config_files/RDST_E1_OASIS_example_SRx4_testing.ini
 ```
 
+## Pre-trained models
+Here we provide pre-trained models to download:
+- RDST-E1 on OASIS: [link](https://www.dropbox.com/s/otokixgf081edhp/OASIS_RDST_E1.pt?dl=0), it achieves +0.16 PSNR than SwinIR with only 38% parameters;
+- RDST-HRL on OASIS: [link](https://www.dropbox.com/s/rl0he5utxzrk1gh/OASIS_RDST_HRL.pt?dl=0), it achieves [+0.0016, +0.0051, +0.0005, +0.0005] dice coefficients than SwinIR.
+- RDST-E on OASIS: [link](https://www.dropbox.com/s/u7mg96bhp3ri8em/OASIS_RDST_E.pt?dl=0), it achieves +0.02 PSNR than SwinIR with only 20% parameters and +46% faster.
+
+
 ## Publications & citations
 This work is available at [arXiv](https://arxiv.org/abs/2302.11184), please cite as:
 ```
