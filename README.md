@@ -24,14 +24,19 @@ This paper proposes an efficient vision transformer with residual dense connecti
 
 # Train & Test
 To setup:
-'''
-git clone
-'''
+```bash
+git clone https://github.com/GinZhu/RDST.git
+cd RDST
+pip install -r requirements.txt
+```
 To train:
+```bash
+python -W ignore train.py --config-file config_files/RDST_E1_OASIS_example_SRx4.ini
+```
 To test:
-
-## On colab
-Here is a colab to notebook to start with:
+```bash
+python -W ignore test.py --config-file config_files/RDST_E1_OASIS_example_SRx4_testing.ini
+```
 
 # Publications & citations
 This work is available at [arXiv](https://arxiv.org/abs/2302.11184), please cite as:
