@@ -7,6 +7,7 @@ This paper proposes an efficient vision transformer with residual dense connecti
 > Framework of the proposed RDST network.
 
 ## Results
+### Broad applicability on medical images
 [OASIS](https://www.oasis-brains.org/)
 ![](./figures/RDST-MIA-OASIS.png)
 [BraTS](https://www.med.upenn.edu/cbica/brats2020/data.html)
@@ -17,7 +18,8 @@ This paper proposes an efficient vision transformer with residual dense connecti
 ![](./figures/RDST-COVID-SOTA.png)
 ### Comparing with SOTA methods (PSNR + Segmentation)
 ![On OASIS](./figures/RDST_SOTA.png)
-### Comparing with SwinIR
+### Segmentation-based perceptual loss
+![](./figures/SOTA_SEG.png)
 
 
 # Train & Test
